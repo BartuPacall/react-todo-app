@@ -1,0 +1,93 @@
+.taskForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-create {
+  width: 450px;
+}
+.task-update {
+  width: 100%;
+}
+.task-label {
+  margin: 10px 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.task-input {
+  padding: 7px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.task-textarea {
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.task-button {
+  background-color: purple;
+  color: white;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 20px;
+}
+.update-button {
+  background-color: blueviolet;
+}
+
+.task-labell {
+  text-align: center;
+  font-size: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-box {
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.task-title {
+  margin-bottom: 5px;
+}
+.upgrade {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  width: 120px;
+  border: none;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.delete {
+  padding: 5px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  width: 120px;
+  border: none;
+  border-radius: 15px;
+}
